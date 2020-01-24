@@ -15,7 +15,7 @@ export default () => (
               price
               image {
                 url
-                sizes(maxWidth: 300, imgixParams: { fm: "jpg" }) {
+                sizes(maxWidth: 275, imgixParams: { fm: "jpg" }) {
                   ...GatsbyDatoCmsSizes
                 }
               }
